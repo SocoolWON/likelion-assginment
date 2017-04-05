@@ -1,0 +1,105 @@
+/* public */
+* {
+ box-sizing: border-box;
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+}
+nav {
+  width: 100%;
+  height: 70px;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://www.governor.ny.gov/sites/governor.ny.gov/files/thumbnails/image/NYC_Skyline_hero2.jpg");
+  background-size: cover;
+}
+
+section {
+  width: 100%;
+}  
+
+footer {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+} 
+
+/* Nav CSS */
+.container h1 {
+  text-align: left;
+  float: left;
+}
+
+.container ul {
+  float: right; 
+  margin: 24px 0px;
+}
+.container ul li {
+  list-style-type: none; 
+  font-size: 15px;
+  float: left;
+  text-align: right;
+  padding: 0px 10px;
+}
+
+.container ul li a {
+  text-decoration: none;
+}
+
+
+/* Hader CSS */
+header .container h2 { 
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+header .container p {
+  color: rgb(230, 230, 230);
+  font-size: 18px;
+}
+
+/* Section CSS */
+section {
+  text-align: center;
+}
+section article{
+  display: inline-block;
+  margin-top: 40px;  
+  margin-bottom: 40px;  
+  margin-left:0 auto;
+  margin-right:0 auto;
+}
+section article img {
+  height: 310px;
+  width: 310px;
+}
+
+section article p {
+  text-align: left;
+  width: 310px;
+  font-size: 15px;
+}
+
+/* Footer CSS */
+footer {
+  background-color: black;
+  text-align: center;
+}
+footer p {
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+}
